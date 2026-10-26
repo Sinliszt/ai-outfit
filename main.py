@@ -48,7 +48,7 @@ if page == "My Wardrobe":
 
                 }
 
-                st.session_state.wardrope.append(item)
+                st.session_state.wardrobe.append(item)
                 st.success(f"{name} added to your wardrobe!")
             else:
                 st.warning("Please enter something")
